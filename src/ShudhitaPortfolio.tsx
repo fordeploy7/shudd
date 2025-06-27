@@ -469,7 +469,7 @@ export default function ShudhitaPortfolio() {
               },
               {
                 title: "Achi Hai",
-                year: "09.052024",
+                year: "09.05.2024",
                 color: "D8A7B1",
                 image: "music/achihai.jpg",
               },
