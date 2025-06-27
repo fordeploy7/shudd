@@ -137,7 +137,7 @@ export default function ShudhitaPortfolio() {
             "Each melody is a whisper of the heart, each harmony an embrace of comfort.",
           duration: 4,
           ease: "none",
-          scrollTrigger: { trigger: typewriterRef.current, start: "top 80%" },
+          scrollTrigger: { trigger: typewriterRef.current, start: "top 80%" }
         });
       }
 
@@ -199,8 +199,8 @@ export default function ShudhitaPortfolio() {
           start: "top bottom",
           end: "bottom top",
           scrub: 1,
-          ease: "none",
         },
+        // Remove ease from here, as it's not a valid property for ScrollTrigger
       });
 
       gsap.to(".gallery-item:nth-child(even)", {
@@ -210,12 +210,12 @@ export default function ShudhitaPortfolio() {
           start: "top bottom",
           end: "bottom top",
           scrub: 1,
-          ease: "none",
+          // ease: "none",
         },
       });
 
       // Individual hover animations for gallery items
-      document.querySelectorAll(".gallery-item").forEach((item, index) => {
+      document.querySelectorAll(".gallery-item").forEach((item,) => {
         const image = item.querySelector("img");
         const overlay = item.querySelector(".gallery-overlay");
 
