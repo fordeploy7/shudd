@@ -447,19 +447,19 @@ export default function ShudhitaPortfolio() {
                 title: "Nazraan",
                 year: "25.06.2025",
                 color: "D8A7B1",
-                image: "/music/nazraan.jpg",
+                image: "music/nazraan.jpg",
               },
               {
                 title: "Baarish",
                 year: "2.08.2024",
                 color: "A8DADC",
-                image: "/music/baarish.jpg",
+                image: "music/baarish.jpg",
               },
               {
                 title: "Tum",
                 year: "27.09.2024",
                 color: "CBB4D4",
-                image: "/music/tumsong.jpg",
+                image: "music/tumsong.jpg",
               },
               {
                 title: "Javan Sirhind Nu",
@@ -471,13 +471,13 @@ export default function ShudhitaPortfolio() {
                 title: "Achi Hai",
                 year: "09.052024",
                 color: "D8A7B1",
-                image: "/music/achihai.jpg",
+                image: "music/achihai.jpg",
               },
               {
                 title: "Mulaqat",
                 year: "20.05.2022",
                 color: "A8DADC",
-                image: "/music/mulaqat.jpg",
+                image: "music/mulaqat.jpg",
               },
             ].map((a) => (
               <div
@@ -511,32 +511,32 @@ export default function ShudhitaPortfolio() {
           <div className="gallery-grid">
             {[
               {
-                src: "/images/performedatCU.jpg",
+                src: "images/performedatCU.jpg",
                 title: "Performing at CU",
                 description: "Performing at CU, where music meets passion",
               },
               {
-                src: "/images/onenessTalks.jpg",
+                src: "images/onenessTalks.jpg",
                 title: "Oneness Talks",
                 description: "Sharing thoughts on music and life",
               },
               {
-                src: "/images/baarish.jpg",
+                src: "images/baarish.jpg",
                 title: "Baarish",
                 description: "2 August 2024",
               },
               {
-                src: "/images/concertatCU.jpg",
+                src: "images/concertatCU.jpg",
                 title: "Concert at Chandigarh University",
                 description: "A night of melodies and memories",
               },
               {
-                src: "/images/nazraan.jpg",
+                src: "images/nazraan.jpg",
                 title: "Nazraan",
                 description: "Latest Release -25.06.2025",
               },
               {
-                src: "/images/tumsong.jpg",
+                src: "images/tumsong.jpg",
                 title: "Tum",
                 description: "A song that resonates with the heart",
               },
